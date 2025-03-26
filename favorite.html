@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Background with Gradient */
+        body {
+            background: linear-gradient(135deg, #0d0d0d, #1a1a2e);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Glassmorphism Effect */
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 255, 128, 0.3);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 20px rgba(0, 255, 128, 0.5);
+        }
+
+        /* Headings */
+        h1 {
+            font-size: 28px;
+            color: #00ff80;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #00ff80;
+            display: inline-block;
+        }
+
+        /* Paragraph Styling */
+        p {
+            font-size: 18px;
+            color: #e0e0e0;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+
+        .emoji {
+            font-size: 22px;
+        }
+
+        /* Button Styling */
+        .btn {
+            margin-top: 15px;
+            display: inline-block;
+            background: #00ff80;
+            color: black;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background: #00cc66;
+            transform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 255, 128, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>My Favorites</h1>
+        <p><strong>Aditya Koushal</strong> enjoys spending free time <strong>playing mobile games</strong>, 
+            finding excitement and fun in the virtual world 🎮. A big fan of <strong>mangoes</strong>, 
+            Aditya loves their sweet and refreshing taste 🥭. Apart from this, Aditya enjoys exploring 
+            new skills, learning, and staying engaged with technology. Whether it's gaming, enjoying 
+            favorite foods, or working on new projects, Aditya always finds joy in the little things in life. 
+            <span class="emoji">😊✨</span></p>
+        <a href="education.html" class="btn">My Education</a>
+    </div>
+
+</body>
+
+</html>
